@@ -6,26 +6,37 @@
 
 # @lc code=start
 import sys
+
+
 class Solution:
     def increasingTriplet(self, nums) -> bool:
-        last_min=sys.maxsize
+        uniq=set(nums)
+        if len(uniq)<3:
+            return False
+        
+        last_min = sys.maxsize
         n = len(nums)
         for i in range(n):
-            if nums[i]<last_min:
-                curr_max=nums[i]
-                counter=0
-                for j in range(i+1,n):
-                    if nums[j]> curr_max:
-                        curr_max=nums[j]
-                        counter+=1
-                    if counter==3:
-                        return True
-                last_min= min(last_min,curr_max)
-        
-        return False
-            
-                
-                    
-                        
-# @lc code=end
+            if nums[i] < last_min:
+                curr_max = nums[i]
+                counter = 1
+                for j in range(i+1, n):
+                    if nums[j] > nums[i]:
+                        # print(i, j, curr_max, nums[j], counter)
+                        if nums[j] > curr_max:
+                            counter += 1
+                        curr_max = nums[j]
+                    if counter == 3:
+                            return True
+                last_min = min(last_min, nums[i])
 
+        return False
+
+
+obj = Solution()
+# print(obj.increasingTriplet([1,5,0,4,1,3]))
+# print(obj.increasingTriplet([2, 1, 5, 0, 3]))
+print(obj.increasingTriplet([20,100,10,12,5,13]))
+
+
+# @lc code=end
