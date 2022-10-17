@@ -1,4 +1,5 @@
 import itertools
+
 class Solution:
     def isValidSudoku(self, board):
         for i in range(9):
