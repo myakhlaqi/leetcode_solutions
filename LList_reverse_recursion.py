@@ -1,4 +1,5 @@
 from LList import MyLinkedList,Node
+
 def reverse(head):
     if not head.next:
         return head
