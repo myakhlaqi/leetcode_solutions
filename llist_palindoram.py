@@ -65,4 +65,4 @@ def isPalindrome2(head) -> bool:
 # print(my_list)
 
 # print(my_list.head.val)
-print(isPalindrome2(my_list.head))
+#print(isPalindrome2(my_list.head))
