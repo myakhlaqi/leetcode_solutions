@@ -62,7 +62,6 @@ def isPalindrome2(head) -> bool:
 
 
 # my_list = MyLinkedList(*[1,2,3,1])
-
 # print(my_list)
 
 # print(my_list.head.val)
