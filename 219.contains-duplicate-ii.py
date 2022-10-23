@@ -17,6 +17,6 @@ class Solution:
                 if num_dic[val][1] <=k:
                     return True
         
-        return False    
+        return False  
 # @lc code=end
 
