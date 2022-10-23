@@ -16,7 +16,6 @@ class Solution:
                 num_dic[val] = (ix,min(abs(num_dic[val][0] - ix),num_dic[val][1]))
                 if num_dic[val][1] <=k:
                     return True
-        
         return False  
 # @lc code=end
 
