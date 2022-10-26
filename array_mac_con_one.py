@@ -12,7 +12,6 @@ class Solution:
                 _current_count= 0
         
         return max_count
-
         
 
 
