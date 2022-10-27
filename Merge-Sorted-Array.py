@@ -10,7 +10,7 @@ class Solution:
         Do not return anything, modify nums1 in-place instead.
         """
         
-#-----------------------------in-place code-----------------------------------------
+#-----------------------------in-place code-------------------------------
 
         j= n-1
         i= m-1
