@@ -36,7 +36,7 @@ class Solution:
                 i-=1
                 ix-=1
             
-#--------------------------extra memory usage---------------------------------------        
+#--------------------------extra memory usage------------------------------        
 #         ans=[]
 #         i=0 # index for num1
 #         j=0 # index for num2
