@@ -4,7 +4,6 @@ class Node:
 
     def __init__(self, val):
         """
-
         The first parameter of the function is self, which refers to the object itself. 
 
         The second parameter is val, which is the value to be stored in the node. 
