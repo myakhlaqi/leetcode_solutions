@@ -4,7 +4,7 @@ class Node:
 
     def __init__(self, val):
         """
-        The function __init__() is a constructor that initializes the data members of the class. 
+        
 
         The first parameter of the function is self, which refers to the object itself. 
 
