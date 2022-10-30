@@ -29,6 +29,7 @@ class Solution:
                     min_sum=curr_sum
         
         return min_sum
+    
 # obj= Solution()
 # print(obj.threeSumClosest([-1,2,1,-4],1))
 # @lc code=end
