@@ -61,9 +61,8 @@ def isPalindrome2(head) -> bool:
         
 
 
-my_list = MyLinkedList(*[1,2,3,1])
-# _,my_list.head=reverse(my_list.head)
+# my_list = MyLinkedList(*[1,2,3,1])
 # print(my_list)
 
 # print(my_list.head.val)
-print(isPalindrome2(my_list.head))
+#print(isPalindrome2(my_list.head))

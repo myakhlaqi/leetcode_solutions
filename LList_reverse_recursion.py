@@ -1,4 +1,5 @@
 from LList import MyLinkedList,Node
+
 def reverse(head):
     if not head.next:
         return head
@@ -6,7 +7,6 @@ def reverse(head):
     head.next.next=head
     head.next=None
     return new_head
-        
 
 def isPalindrome(head) -> bool:
     _,head=reverse(head)

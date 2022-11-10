@@ -1,5 +1,7 @@
 import itertools
+
 class Solution:
+    
     def isValidSudoku(self, board):
         for i in range(9):
             seen=set()
@@ -8,6 +10,7 @@ class Solution:
                     if board[i][j] in seen:
                         return False
                     seen.add(board[i][j])
+                    
         for i in range(9):
             seen=set()
             for j in range(9):

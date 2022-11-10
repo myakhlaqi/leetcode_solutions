@@ -10,7 +10,7 @@ class Solution:
         Do not return anything, modify nums1 in-place instead.
         """
         
-#-----------------------------in-place code-----------------------------------------
+#-----------------------------in-place code-------------------------------
 
         j= n-1
         i= m-1
@@ -36,7 +36,7 @@ class Solution:
                 i-=1
                 ix-=1
             
-#--------------------------extra memory usage---------------------------------------        
+#--------------------------extra memory usage---------------------        
 #         ans=[]
 #         i=0 # index for num1
 #         j=0 # index for num2
@@ -58,6 +58,5 @@ class Solution:
 #         for i in range(n+m):
 #             nums1[i]=ans[i]
         
-            
             
             
