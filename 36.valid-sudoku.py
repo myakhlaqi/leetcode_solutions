@@ -29,5 +29,5 @@ class Solution:
 
 
 
-# @lc 
+# @lc
 
