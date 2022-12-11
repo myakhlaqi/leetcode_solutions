@@ -25,6 +25,6 @@ class Solution:
         return max_len
 
 # @lc code=end
-obj=Solution()
+obj =Solution()
 print(obj.maxLength(["abcdefghijklmnopqrstuvwxyz"]))
 
