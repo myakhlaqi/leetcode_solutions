@@ -26,5 +26,5 @@ class Solution:
 
 # @lc code=end
 obj = Solution()
-print( obj.maxLength(["abcdefghijklmnopqrstuvwxyz"]))
+print( obj.maxLength(["abcdefghijklmnopqrstuvwxyz"]) )
 
