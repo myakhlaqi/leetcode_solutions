@@ -4,6 +4,7 @@
 # [1] Two Sum
 #
 # @lc code=start
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         num_index=dict()
