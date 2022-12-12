@@ -21,5 +21,6 @@ class Solution:
                 return num_index[i]
             if complement != i and complement in num_index:
                 return [num_index[i][0],num_index[target-i][0]]        
+            
 # @lc code=end
 
