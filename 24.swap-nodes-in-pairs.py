@@ -11,7 +11,18 @@
 #         self.val = val
 #         self.next = next
 class Solution:
+#     recursive solution
     def swapPairs(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        if not head or not head.next:
+            return head
+        next = self.swapPairs(head.next.next)
+        head.next.next = head
+        first = head.next
+        head.next = next
+        return first
+        
+#     iterative solution
+    def swapPairs1(self, head: Optional[ListNode]) -> Optional[ListNode]:
         if not head or not head.next:
             return head
         
