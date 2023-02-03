@@ -9,7 +9,7 @@ def reverse(head):
     return new_head
 
 def isPalindrome(head) -> bool:
-    _,head=reverse(head)
+    _,head = reverse(head)
     curr = head
     while curr:
         print(curr.val)
