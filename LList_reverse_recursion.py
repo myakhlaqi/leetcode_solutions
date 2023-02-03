@@ -16,5 +16,5 @@ def isPalindrome(head) -> bool:
         curr=curr.next
 
 my_list=MyLinkedList(*[1,2,3])
-_,my_list.head=reverse(my_list.head)
+_,my_list.head = reverse(my_list.head)
 print(my_list)
