@@ -28,5 +28,5 @@ class Solution:
 obj = Solution()
 obj2 = Solution()
 print( obj.maxLength(["abcdefghijklmnopqrstuvwxyz"]) )
-print( obj2.maxLength(["a"]) )
+print( obj2.maxLength(["aa"]) )
 
