@@ -16,7 +16,6 @@ class Solution:
                 heapq.heappush(klarg,(v,i) )
         return list(map(lambda x: x[0], sorted(klarg,key= lambda x: x[1])))
         
-    
     # def maxSubsequence(self, nums: List[int], k: int) -> List[int]:
     #     ans = list(enumerate(nums))
     #     ans = sorted(ans,key= lambda x: x[1])[-k:]
