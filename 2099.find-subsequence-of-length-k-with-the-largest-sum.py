@@ -14,7 +14,6 @@ class Solution:
                 heapq.heappushpop(klarg,(v,i) )
             else:
                 heapq.heappush(klarg,(v,i) )
-        
         return list(map(lambda x: x[0], sorted(klarg,key= lambda x: x[1])))
         
     
