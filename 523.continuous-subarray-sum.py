@@ -22,7 +22,7 @@ class Solution:
                 if (sum_ >= k and sum_ % k == 0) or (sum_ == 0):
                     return True
                 j+=1   
-                
+                 
             i+=1
         
         return False
