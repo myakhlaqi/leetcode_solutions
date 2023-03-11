@@ -18,6 +18,7 @@ class Solution:
             # if have the answer for the current path return the result
             if (i,s) in self.memory: 
                 return self.memory[(i,s)]
+            
             find1= helper(nums,i+1,s, target)
             find2= helper(nums ,i+1 , s - 2*nums[i] , target)
             
