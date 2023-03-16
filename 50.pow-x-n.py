@@ -16,7 +16,7 @@ class Solution:
                 return x * x
             if n == 1:
                 return x
-            result = binary_pow(x * x, n//2)
+            result = binary_pow(x * x, n// 2)
             return result if n % 2 == 0 else result * x
 
         result = binary_pow(x,abs(n))
