@@ -19,7 +19,7 @@ class Solution:
             result = binary_pow( x * x , n // 2)
             return result if n % 2 == 0 else result * x
 
-        result = binary_pow(x,abs(n))
+        result = binary_pow(x ,abs(n))
         
         return result if n>0 else 1/result        
 # @lc code=end
