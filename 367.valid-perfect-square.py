@@ -10,7 +10,7 @@ class Solution:
         # return math.sqrt(num) == int(math.sqrt(num))
         left = 1
         right = num
-        while left<=right:
+        while left <=right:
             mid = (left + right) // 2
             if mid * mid == num:
                 return True
