@@ -19,7 +19,7 @@ class Solution:
         stack = [node]
         first_copy_node = Node(node.val)
         # A dictionary that maps the original node to the copy node.
-        visited = {node:first_copy_node}
+        visited = {node :first_copy_node}
         while stack:
             curr_node = stack[-1]
             
