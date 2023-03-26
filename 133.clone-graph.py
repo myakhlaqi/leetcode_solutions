@@ -13,10 +13,12 @@ class Node:
         self.neighbors = neighbors if neighbors is not None else []
 """
 class Solution:
+    
     def cloneGraph(self, node: 'Node') -> 'Node':
         if not node:
             return None
         stack = [node]
+        
         first_copy_node = Node(node.val)
         # A dictionary that maps the original node to the copy node.
         visited = {node : first_copy_node}
