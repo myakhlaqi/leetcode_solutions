@@ -37,6 +37,7 @@ class Solution:
                 visited[unseen_neighbor] = Node(unseen_neighbor.val)
             else:
                 stack.pop()
+                
         return first_copy_node
                     
 # @lc code=end
