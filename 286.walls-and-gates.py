@@ -22,7 +22,7 @@ def wallsAndGates(rooms):
         visited_step = {(i, j : 0}
         while q:
             (x, y) = q.popleft()
-            if unvisited_rooms := [(row, col) for row, col in [(x+1, y), (x-1, y), (x, y + 1), (x, y-1)]
+            if unvisited_rooms := [(row, col) for row, col in [(x+1, y), (x-1, y), (x, y + 1), (x, y - 1)]
                                    if 0 <= row < m and 0 <= col < n and rooms[row][col] not in {-1, 0} and (row, col) not in visited_step]:
                 q.extend(unvisited_rooms)
                 parent_step = visited_step[(x, y)]
