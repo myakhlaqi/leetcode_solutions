@@ -19,7 +19,7 @@ def wallsAndGates(rooms):
         q = deque()
         q.append((i, j))
 
-        visited_step = {(i, j): 0}
+        visited_step = {(i, j : 0}
         while q:
             (x, y) = q.popleft()
             if unvisited_rooms := [(row, col) for row, col in [(x+1, y), (x-1, y), (x, y+1), (x, y-1)]
