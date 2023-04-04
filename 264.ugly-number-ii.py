@@ -8,7 +8,7 @@
 class Solution:
     
     def nthUglyNumber(self, n: int) -> int:
-        prime_factors = [2,3,5]
+        prime_factors = [2 ,3,5]
         ans = []
         i = 1
         while len(ans) < n:
