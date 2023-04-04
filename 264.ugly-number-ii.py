@@ -15,7 +15,7 @@ class Solution:
             j,tmp = i , i
             for factor in prime_factors:
                 while j % factor == 0:
-                    j  = j //factor
+                    j  = j // factor
             if j == 1:
                 ans.append(tmp)
             i+=1
