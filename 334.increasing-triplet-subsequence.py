@@ -14,7 +14,7 @@ class Solution:
         for third in nums:
             
             if second < third: return True
-            if third <= first: first= third    
+            if third <= first: first = third    
             else:  second = third 
                 
         return  False
