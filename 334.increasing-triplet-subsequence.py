@@ -22,7 +22,7 @@ class Solution:
 # class Solution:
 #     def increasingTriplet(self, nums) -> bool:
 #         uniq=set(nums)
-#         if len(uniq)<3:
+#         if len(uniq) < 3:
 #             return False
         
 #         last_min = sys.maxsize
