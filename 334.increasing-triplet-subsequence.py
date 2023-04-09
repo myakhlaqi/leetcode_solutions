@@ -31,7 +31,7 @@ class Solution:
 #             if nums[i] < last_min:
 #                 curr_max = nums[i]
 #                 counter = 1
-#                 for j in range(i+1, n):
+#                 for j in range(i+ 1, n):
 #                     if nums[j] > nums[i]:
 #                         # print(i, j, curr_max, nums[j], counter)
 #                         if nums[j] > curr_max:
