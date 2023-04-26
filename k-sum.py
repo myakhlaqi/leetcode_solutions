@@ -7,7 +7,7 @@ class Solution:
             
             csum= sum([nums[x] for x in range(0,n,i)])
             ans.append(csum)
-            ans.sort(reverse=True)
+            ans.sort(reverse = True)
             print(ans)
         return ans
 
