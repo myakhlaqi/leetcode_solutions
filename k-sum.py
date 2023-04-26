@@ -1,6 +1,6 @@
 class Solution:
     def kSum(self, nums: list[int], k: int) -> int:
-        ans=[0]
+        ans = [0]
         ans.append(nums)
         n=len(nums)
         for i in range(2,n):
