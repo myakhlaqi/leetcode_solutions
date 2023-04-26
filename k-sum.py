@@ -4,7 +4,7 @@ class Solution:
         ans.append(nums)
         n=len(nums)
         for i in range(2,n):
-            for ()
+            
             csum= sum([nums[x] for x in range(0,n,i)])
             ans.append(csum)
             ans.sort(reverse=True)
