@@ -27,7 +27,7 @@ class Solution:
             elif r > len(arr) - 1:
                 l -= 1
             else:
-                if abs(arr[l] -  x) <=  abs(arr[r] -  x):
+                if abs(arr[l] -  x) <=  abs(arr[r] - x):
                     l -= 1
                 else:
                     r += 1
