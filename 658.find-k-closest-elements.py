@@ -18,7 +18,7 @@ class Solution:
                 l = mid + 1
             else:
                 r = mid - 1
-        ix = l if l< len(arr) - 1 else len(arr) - 1
+        ix = l if l < len(arr) - 1 else len(arr) - 1
         l,r = ix-1 , ix
         counter = 0
         while counter < k:
