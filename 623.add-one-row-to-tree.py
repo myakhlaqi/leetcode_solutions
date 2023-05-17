@@ -28,7 +28,7 @@ class Solution:
             root.left = new_left
             root.right = new_right
             
-        self.addOneRowRec(root.left, depth+1)
+        self.addOneRowRec(root.left, depth +1)
         self.addOneRowRec(root.right,depth+1)
         return root
 
