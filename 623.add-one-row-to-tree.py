@@ -29,7 +29,7 @@ class Solution:
             root.right = new_right
             
         self.addOneRowRec(root.left, depth + 1)
-        self.addOneRowRec(root.right,depth +1)
+        self.addOneRowRec(root.right,depth + 1)
         return root
 
     def addOneRow(self, root: Optional[TreeNode], val: int, depth: int) -> Optional[TreeNode]:
