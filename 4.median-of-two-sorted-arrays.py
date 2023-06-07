@@ -15,7 +15,7 @@ class Solution:
         while i < len(nums1):
             print(i,j,k)
             if j == len(nums2) or nums1[i] <= nums2[j]: 
-                i +=1
+                i += 1
             else: 
                 j+=1
             k+=1
