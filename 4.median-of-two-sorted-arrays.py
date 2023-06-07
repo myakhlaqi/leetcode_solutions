@@ -7,7 +7,7 @@
 # @lc code=start
 class Solution:
     def findMedianSortedArrays(self, nums1: list[int], nums2: list[int]) -> float:
-        i,j, k = 0 , 0, 0
+        i,j , k = 0 , 0, 0
         if len(nums1) < len(nums2):
             nums1 , nums2 = nums2 , nums1
         total = len(nums1) + len(nums2)
