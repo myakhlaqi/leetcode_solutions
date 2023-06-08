@@ -18,7 +18,7 @@ class Solution:
                 max_curr=len(arr[i])
                 for j in range(i + 1,n):
                     if arr[j] is not None:
-                        concat_len= len(arr[i] +arr[j])
+                        concat_len= len(arr[i] + arr[j])
                         if  concat_len > max_curr and set(arr[i]).intersection( set(arr[j])) == set():
                             max_curr=concat_len
                 max_len= max(max_curr,max_len)
