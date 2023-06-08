@@ -18,10 +18,10 @@ class StockSpanner:
                 k+=1
             else:
             
-                # print(price,p,k,max_k)
+                # print(price, p, k, max_k)
                 break
             max_k = max (max_k,k)
-        # max_k = max (max_k,k)
+        # max_k = max (max_k, k)
         return max_k
 
 
