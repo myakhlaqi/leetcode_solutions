@@ -16,7 +16,7 @@ class Solution:
         for i in range(n-1):
             if arr[i] is not None:
                 max_curr=len(arr[i])
-                for j in range(i +1,n):
+                for j in range(i + 1,n):
                     if arr[j] is not None:
                         concat_len= len(arr[i]+arr[j])
                         if  concat_len > max_curr and set(arr[i]).intersection( set(arr[j])) == set():
