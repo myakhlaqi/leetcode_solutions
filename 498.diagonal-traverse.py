@@ -10,7 +10,7 @@ class Solution:
         n=len(mat)
         m=len(mat[0])
         ans=[]
-        row,col= 0,0
+        row, col= 0,0
         for d in range(m+n-1):
             temp=[]
             if d < n:
