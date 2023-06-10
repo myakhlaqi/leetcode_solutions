@@ -19,7 +19,7 @@ class Solution:
             else:
                 row= n-1
                 col= d-row
-            while row>=0 and col<m:
+            while row >=0 and col<m:
                 temp.append(mat[row][col])
                 row-=1
                 col+=1
