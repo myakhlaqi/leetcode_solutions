@@ -8,7 +8,7 @@
 class NextPrime:
     def next(n):
         flag= True
-        if (n %2 == 0):
+        if (n % 2 == 0):
             i = n + 1
         else:
             i = n + 2
