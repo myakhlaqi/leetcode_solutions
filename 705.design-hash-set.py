@@ -15,7 +15,7 @@ class NextPrime:
         while True:
             if(NextPrime.isPrime(i)):
                 return i
-            i+= 2
+            i += 2
     def isPrime(n):
         for i in range(2,n):
             if (n%i == 0):
